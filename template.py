@@ -4,7 +4,7 @@ from pathlib import Path
 package_name = "mongodb_connect"
 
 list_of_files = [
-   ".github/workflows/ci.yaml",
+   ".github/workflows/ci.yaml", #ci means continues integration
    "src/__init__.py",
    f"src/{package_name}/__init__.py", 
    f"src/{package_name}/mongo_crud.py", 
